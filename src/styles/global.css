@@ -1,0 +1,117 @@
+/* 全局css */
+
+:root {
+    --color-balck: #21252D;
+    --color-white: #D8DADF;
+    --color-gray: #E6E8EC;
+    --color-deep-gray: rgb(190, 190, 190);
+    --color-old-gray: #979fad;
+    
+    --color-red: #EC2525;
+    --color-hover-gray: #vEFF1F5;
+    --color-shadow: 0 0 20px rgba(88, 88, 88, 0.1);
+    --color-fooder-gray: #A7A9AC;
+    --color-detail-gray: #778294;
+
+
+    --width-middle: 1280px;
+}
+
+html {
+    /* !!!!!!!!!! */
+    font-family: 'NotoSansSC serif';
+    color: var(--color-balck);
+}
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: 'iconfont';
+    /* Project id 4383496 */
+    src: url('//at.alicdn.com/t/c/font_4383496_1mix8o60t3m.woff2?t=1703689532307') format('woff2'),
+        url('//at.alicdn.com/t/c/font_4383496_1mix8o60t3m.woff?t=1703689532307') format('woff'),
+        url('//at.alicdn.com/t/c/font_4383496_1mix8o60t3m.ttf?t=1703689532307') format('truetype');
+}
+
+.iconfont {
+    font-family: 'iconfont';
+    /* line-height: 15px; */
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+li,
+a,
+i,
+span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+h3,
+h2,
+p {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+/* 通用 */
+span.detail {
+    color: var(--color-deep-gray);
+}
+
+/* 不同嵌套层如何复用？ */
+span.cart-item-price {
+    color: var(--color-red);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+span.old-price {
+    color: var(--color-old-gray);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+span.now-price {
+    color: var(--color-red);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+span.detail-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #778294;
+}
+
+a.nav {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a.nav-small {
+    font-size: 14px;
+    font-weight: 500;
+}
+body{
+    width: 1920px;
+}
+.container {
+    width: 1920px;
+}
+
+.content {
+    width: var(--width-middle);
+    margin: 0 auto;
+}

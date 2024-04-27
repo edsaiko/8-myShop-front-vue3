@@ -1,0 +1,43 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #169BFA,
+    ),
+    'success': (
+      'base': #31CF9A,
+    ),
+    'warning': (
+      'base': #FFBC33,
+    ),
+    'danger': (
+      'base': #FF5F5F,
+    ),
+    'error': (
+      'base': #FF5F5F,
+    ),
+    'info': (
+      'base': #909399,
+    ),
+  ),
+  $text-color: (
+    'primary': #455A74,
+    'regular': #455A74,
+  ),
+  $font-size: (
+    'base': 12px,
+  ),
+  $border-color: (
+    '': #EBEBEB,
+  ),
+  $input-font-size: (
+    'default': 12px,
+  ),
+  $select: (
+    'input-font-size': 12px,
+  ),
+  $table-font-size: (
+    'default': 12px,
+  ),
+);
+
+//@use "element-plus/theme-chalk/src/index.scss" as *;
